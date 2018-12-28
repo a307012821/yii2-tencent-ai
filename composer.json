@@ -1,0 +1,14 @@
+{
+    "name": "a307012821/yii2-tencent-ai",
+    "description": "腾讯ai接sdk",
+    "require": {
+        "php": ">=5.6"
+    },
+    "authors": [
+        {
+            "name": "飘逝在时光里的誓言",
+            "email": "congrong512@vip.qq.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
