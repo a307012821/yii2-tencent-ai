@@ -33,7 +33,7 @@ class Request{
             curl_setopt($curl, CURLOPT_HEADER, false);
             curl_setopt($curl, CURLOPT_NOBODY, false);
             curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
-            curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, true);
+//            curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, true);
             curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
             $response = curl_exec($curl);
             if ($response === false)

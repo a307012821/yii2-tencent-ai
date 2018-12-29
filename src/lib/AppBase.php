@@ -52,7 +52,8 @@ class AppBase extends Base {
      * 生成最终的配置信息
      */
     public function generateFinalConfig($params){
-        $this->final_config["time_stamp"] = time();
+        $this->final_config["app_id"] = $this->enterprise->app_id;
+        $this->final_config["time_stamp"] = strval(time() + 60 *5);
         $this->final_config["nonce_str"] = uniqid();
         $this->final_config = array_merge($this->final_config , $params);
         $this->final_config["sign"] = $this->getSign();

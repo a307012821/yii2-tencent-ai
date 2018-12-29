@@ -13,6 +13,8 @@ class SpeechRecognition extends AppBase implements InterfaceApp {
 
     public function translate($params = []){
         $this->generateFinalConfig($params);
+//        echo "<pre>";
+//        print_r($this->final_config);die;
         return $this->http_post(self::API);
     }
 

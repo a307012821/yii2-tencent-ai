@@ -5,7 +5,7 @@
  * Date: 2018/12/28
  * Time: 17:07
  */
-namespace TencentAi\src;
+namespace TencentAi;
 
 use TencentAi\core\Base;
 
@@ -26,7 +26,7 @@ class App extends Base{
     static private function engine($name ,array $config) {
         $class = new \ReflectionClass(self::class);
         $namespace = $class->getNamespaceName();
-        $drive = $namespace . "\\" . $name;
+        $drive = $namespace . "\\" . "lib\\" . $name;
         return new $drive($config);
     }
 
