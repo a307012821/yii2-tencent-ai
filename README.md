@@ -2,8 +2,7 @@
 
 腾讯语音AI接口 语音翻译
 
-
-` composer require a307012821/yii2-tencent-ai dev-master `
+    composer require a307012821/yii2-tencent-ai dev-master
 
 
 ### example
