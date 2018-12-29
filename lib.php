@@ -3,9 +3,5 @@
  * Created by PhpStorm.
  * User: Administrator
  * Date: 2018/12/28
- * Time: 16:03
+ * Time: 17:06
  */
-
-class TencentAi{
-
-}
