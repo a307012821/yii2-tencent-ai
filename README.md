@@ -1,6 +1,6 @@
 # yii2-tencent-ai
 
-腾讯语音AI接口 语音翻译
+Voice Translation of Tencent Voice AI Interface
 
     composer require a307012821/yii2-tencent-ai dev-master
 
